@@ -1,2 +1,2 @@
-FROM litemovie/xfce:latest
+FROM accetto/ubuntu-vnc-xfce:latest
 
