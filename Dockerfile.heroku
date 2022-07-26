@@ -1,2 +1,2 @@
-FROM docker run -p 3000:6901 accetto/ubuntu-vnc-xfce
+FROM accetto/ubuntu-vnc-xfce
 
