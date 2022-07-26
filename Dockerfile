@@ -18,7 +18,7 @@ ENV	VNC_PASS="samplepass" \
 	DISPLAY=:0 \
 #NoVNC Port
 	NOVNC_PORT=$PORT \
-	PORT=8080 \
+	PORT=6901 \
 #Locale
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
