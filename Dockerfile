@@ -23,14 +23,14 @@ ENV	VNC_PASS="samplepass" \
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
 	LC_ALL=C.UTF-8 \
-	TZ="Asia/Kolkata"
+	TZ="Asia/Jakaroa"
 
 COPY rootfs/ /
 
 SHELL ["/bin/bash", "-c"]
 
 RUN	apt-get update && \
-	apt-get install -y tzdata ca-certificates supervisor curl wget python3 python3-pip sed unzip xvfb x11vnc websockify openbox libnss3 libgbm-dev libasound2 && \
+	apt-get install -y tzdata ca-certificates supervisor curl wget python3 python3-pip sed unzip xvfb x11vnc websockify openbox dolphin libnss3 libgbm-dev libasound2 vlc ffmpeg xfce4 && \
 #Chromium
 	wget https://commondatastorage.googleapis.com/chromium-browser-snapshots/Linux_x64/1003039/chrome-linux.zip -P /tmp && \
 	unzip /tmp/chrome-linux.zip -d /opt && \
